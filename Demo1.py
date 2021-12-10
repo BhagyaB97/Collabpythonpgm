@@ -1,5 +1,7 @@
-x= int (input("Enter the number : "))
+x= input("Enter the number : ")
 print ("The Number is:", x)
+y= input("Enter another number")
+print("Number" ,y)
 flag = False
 if x > 1:
     # check for factors
@@ -25,3 +27,4 @@ else:
    for i in range(1,x + 1):
        factorial = factorial*i
    print("The factorial of",x,"is",factorial)
+
