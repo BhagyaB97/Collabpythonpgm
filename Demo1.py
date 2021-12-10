@@ -1,4 +1,4 @@
-x= input("Enter the number : ")
+x= int (input("Enter the number : "))
 print ("The Number is:", x)
 flag = False
 if x > 1:
